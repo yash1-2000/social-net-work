@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Bebas+Neue&display=swap');
+
+body {
+  /* background: linear-gradient(to right, #FFFFFF, #b5b5b5); */
+  background-color: #eef2f7;
+  /* background-image: url("./components/layout/landing/_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.AlertComponent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 99;
+  width: 80%;
+  /* margin: 0 auto; */
+
+  /* margin-bottom: 20px; */
+}
+.spinner {
+  z-index: 9999;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.Card {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  /* height: 200px; */
+  margin-top: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.Form_Card {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 90%;
+  height: 85vh;
+  margin: 0 auto;
+  background:  rgb(255, 255, 255);
+  border-radius: 5px;
+  overflow: auto;
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+}
+.Form_Card::-webkit-scrollbar {
+  display: none;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.22);
+}
+@media only screen and (max-width: 600px) {
+  .main_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

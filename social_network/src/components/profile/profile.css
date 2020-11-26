@@ -1,0 +1,100 @@
+.profile_top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile_top {
+  padding: 10px;
+  /* height: 40vh; */
+}
+.profile_top h4 {
+  margin: 10px;
+  margin-left: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  /* font-weight: 400; */
+}
+.Experiences {
+  padding: 10px;
+}
+.Educations {
+  padding: 10px;
+}
+.nusta_div {
+  display: grid;
+}
+.profile_github {
+  padding: 10px;
+  display: flex;
+}
+.profile_github h4 {
+  margin: 5px 0;
+}
+.profile_github ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  height: 100%;
+}
+.profile_github li {
+  margin:10px 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size:0.9rem;
+}
+.profile_github a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.repo_info {
+  margin-left: auto;
+  margin-right: 10px;
+}
+.hr_style {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.pic_name {
+  display: flex;
+}
+.pic_name h1 {
+  margin: 0;
+  margin-left: 15px;
+  align-self: flex-end;
+}
+.social_links a {
+  font-size: 1.2rem;
+  margin: 5px;
+  color: rgb(36, 55, 70);
+}
+.skills ul{
+    list-style: none;
+    padding: 0;
+}
+.skills li{
+    display: inline;
+    margin-right: 10px;
+}
+.description_text{
+  font-size: 0.8rem;
+}
+.pic_container{
+  width: 70px;
+  height: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .profile_github {
+    flex-direction: column;
+  }
+  .repo_info {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .profile_github li {
+    display: inline;
+    margin: 3px;
+    margin-right: 15px;
+  }
+}

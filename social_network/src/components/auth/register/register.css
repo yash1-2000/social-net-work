@@ -1,0 +1,29 @@
+.register_container{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.register_container h1{
+    font-weight: 320;
+    font-size:2.7rem;
+    margin: 15px 0;
+}
+/* .form_class {
+   width: 75%;
+} */
+.form_class Button{
+    width: 100px;
+}
+.form_class p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .register_container h1{
+       margin: 10px 0;
+    }
+    .form_class{
+        width: 90%;
+    }
+  }

@@ -1,0 +1,93 @@
+.submit_back_dashboard Button{
+    margin: 3px;
+}
+.dashboard_profile{
+    margin: 0 15px;
+}
+.dashboard_profile p{
+    margin: 5px 0;
+}
+.dashboard_profile h3{
+    margin: 8px 0;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.dashboard_profile h4{
+    margin: 8px 0;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+}
+.dashboard_profile h5{
+    margin: 8px 0;
+    /* font-weight: 500; */
+}
+.dashboard_profile ul{
+    padding: 0;
+    list-style: none;
+}
+.dashboard_profile li{
+  display: inline;
+  margin-right:10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.profpic{
+   display: flex;
+}
+.profpic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+.pic_btns{
+    margin-top:auto ;
+}
+/* .file_upload_wrapper{
+    overflow: hidden;
+    display: inline-block;
+} */
+.file_upload_wrapper input[type=file]{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    margin: 0;
+    width: 1px;
+    width: 1px;
+}
+.welcome{
+    height: 20vh;
+    background-color: rgba(107, 204, 221, 0.563);
+    margin-bottom: -50px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.welcome h3{
+margin: 0;
+align-self: flex-end;
+margin-left: auto;
+margin-right: 20px;
+margin-bottom: 10px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+.bio{
+    text-align: justify;
+}
+.description{
+    text-align: justify;
+}
+.dash_pic_container{
+    width: 100px;
+    height: 100px;
+}
+@media only screen and (max-width: 600px) {
+    /* .Card{
+        width: 95%; */
+        /* margin: 0 auto;
+    } */
+  }
