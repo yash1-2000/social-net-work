@@ -14,6 +14,7 @@ user can also be able to show github repos
  
 - frontend
   - react js
+  - react redux
   - material ui
   
 - deployment
