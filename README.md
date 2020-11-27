@@ -19,3 +19,5 @@ user can also be able to show github repos
 - deployment
   - netlify for frontend
   - heroku for backend
+  
+ you can visit app [here](https://social-net-work.netlify.app/)
